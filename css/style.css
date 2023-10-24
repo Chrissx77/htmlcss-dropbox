@@ -234,6 +234,10 @@ div span {
     flex-wrap: wrap;
 }
 
+.justify{
+    justify-content: space-between;
+}
+
 .card {
     width: calc(100% / 3 - 30px);
     justify-content: space-between;
