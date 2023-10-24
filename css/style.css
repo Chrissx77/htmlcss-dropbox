@@ -112,3 +112,52 @@ div span{
     padding-right: 20px;
     font-size: 20px;
 }
+
+.p-15{
+    padding: 20px;
+}
+
+.abbonamenti{
+    font-size: 19px;
+}
+
+.flex-item{
+    flex-basis: 33%;
+    border: 1px solid dimgray;
+    min-height: 1000px;
+    margin-right: 20px;
+}
+.text-left{
+    padding-bottom:40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.user{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.text-left li{
+    padding: 0;
+}
+
+.divide{
+    width: 25%;
+    margin: 0;
+    border-bottom: 1px solid black;
+    min-height: 30px;
+}
+
+.hightlight{
+    padding-top: 40px;
+}
+
+.buy{
+    padding-top: 40px;
+}
+
+
+
+
+
