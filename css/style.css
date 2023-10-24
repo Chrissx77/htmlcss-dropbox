@@ -13,7 +13,7 @@ body {
 }
 
 /* Header Style */
-.fixed{
+.fixed {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,6 +24,7 @@ body {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex li {
@@ -64,7 +65,7 @@ ul {
 
 
 /* Jumbotron Style */
-.jumbotron{
+.jumbotron {
     background-color: rgb(184, 193, 230);
 }
 
@@ -92,71 +93,124 @@ ul {
     padding: 20px 0;
 }
 
-.button-jumbo a{
-     font-size: 20px;
+.button-jumbo a {
+    font-size: 20px;
 }
 
-#arrow-down{
+#arrow-down {
     padding-top: 100px;
     font-size: 80px;
 }
 
-/* Main Style */
-main{
-    width: 50%;
+/* MAIN STYLE */
+/* Abbonamenti */
+main {
+    width: 60%;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-div span{
+div span {
     padding-right: 20px;
     font-size: 20px;
 }
 
-.p-15{
+.p-15 {
     padding: 20px;
 }
 
-.abbonamenti{
+.abbonamenti {
     font-size: 19px;
 }
 
-.flex-item{
+.flex-item {
     flex-basis: 33%;
     border: 1px solid dimgray;
-    min-height: 1000px;
     margin-right: 20px;
 }
-.text-left{
-    padding-bottom:40px;
+
+.text-left {
+    padding-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
 }
-.user{
+
+.user {
     text-align: center;
     border-bottom: 1px solid black;
     padding: 5px;
 }
 
-.text-left li{
-    padding: 0;
+.text-left li {
+    padding: 5px 0px;
 }
 
-.divide{
+.divide {
     width: 25%;
     margin: 0;
     border-bottom: 1px solid black;
     min-height: 30px;
 }
 
-.hightlight{
+.hightlight {
     padding-top: 40px;
 }
 
-.buy{
+.buy {
     padding-top: 40px;
 }
 
+.btn-main {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.team-contact {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border: 1px solid black;
+    font-size: 17px;
+}
+
+.text-team{
+    flex-basis: 73%;
+}
+
+.text-team div b{
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.team-btn{
+    flex-basis: 37%;
+}
+
+/* Partner */
+.partner img{
+    width: 600px;
+}
+
+.text-partner{
+    font-size: 19px;
+    padding: 70px 100px;
+    text-align: left;
+}
+
+.btn-partner{
+    margin-top: 50px;
+}
+
+.btn-partner a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+/* Features */
 
 
 
