@@ -38,7 +38,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 19px;
-    font-weight: lighter;
+    font-weight: 400;
+    box-shadow: 0px 1px 20px black ;
 }
 
 ul {
@@ -57,7 +58,7 @@ ul {
 
 .button {
     text-decoration: none;
-    padding: 9px;
+    padding: 7px 15px;
     background-color: rgb(40, 40, 253);
     color: white;
 }
@@ -80,10 +81,17 @@ ul {
     margin: 0;
 }
 
-.img-jumbo img {
-    width: 860px;
-    height: 500px;
+.relative {
+    position: relative;
+}
 
+
+.img-jumbo img {
+    width: 960px;
+    height: 540px;
+    position: absolute;
+    left: 450px;
+    top: 20px;
 }
 
 .text-jumbo {
@@ -104,9 +112,10 @@ ul {
 /* MAIN STYLE */
 /* Abbonamenti */
 main {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 100px 0;
+
 }
 
 div span {
@@ -124,7 +133,7 @@ div span {
 
 .flex-item {
     flex-basis: 33%;
-    border: 1px solid dimgray;
+    border: 1px solid #c6c6c6;
     margin-right: 20px;
 }
 
@@ -136,7 +145,7 @@ div span {
 
 .user {
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c6c6c6;
     padding: 5px;
 }
 
@@ -144,10 +153,16 @@ div span {
     padding: 5px 0px;
 }
 
+.text-left li:nth-child(2){
+    padding: 30px 0;
+}
+
+
+
 .divide {
     width: 25%;
     margin: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c6c6c6;
     min-height: 30px;
 }
 
@@ -169,82 +184,74 @@ div span {
 .team-contact {
     margin-top: 50px;
     margin-bottom: 80px;
-    border: 1px solid black;
+    border: 1px solid #c6c6c6;
     font-size: 17px;
 }
 
-.text-team{
+.text-team {
     flex-basis: 73%;
 }
 
-.text-team div b{
+.text-team div b {
     padding-bottom: 30px;
     display: inline-block;
 }
 
-.team-btn{
+.team-btn {
     flex-basis: 37%;
 }
 
 /* Partner */
-.partner img{
+.partner img {
     width: 600px;
 }
 
-.text-partner{
+.text-partner {
     font-size: 19px;
     padding: 70px 100px;
     text-align: left;
 }
 
-.btn-partner{
+.btn-partner {
     margin-top: 50px;
 }
 
-.btn-partner a{
+.btn-partner a {
     background-color: white;
     color: black;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid #c6c6c6;
     padding: 10px 15px;
 }
 
 /* Features */
-.features h2{
+.features h2 {
     padding-top: 80px;
     font-size: 40px;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
-.card{
-    width: calc(100% / 3 - 30px) ;
+.card {
+    width: calc(100% / 3 - 30px);
     justify-content: space-between;
     margin-right: 10px;
     margin-top: 30px;
 }
 
-.card div img{
+.card div img {
     width: 350px;
 }
 
-.card h5{
+.card h5 {
     font-size: 30px;
 }
 
 /* Pubblicità */
-.end-main{
+.end-main {
     width: 55%;
     padding-top: 120px;
     padding-bottom: 100px;
 }
-
-
-
-
-
-
-
-
