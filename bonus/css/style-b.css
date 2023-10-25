@@ -339,13 +339,14 @@ li{
     filter: invert(1);
 }
 
-/* .azienda:hover{
-    border: 5px solid white;
-} */
-
 .azienda{
     flex-basis: 50%;
     position: relative;
+    transition: 0.5s;
+}
+
+.box-customers div.azienda:hover{
+    filter: drop-shadow(0px 0px 20px white);
 }
 
 .designit{
