@@ -30,6 +30,16 @@ body {
     padding: 0 10px;
 }
 
+ul.flex li:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+ul.flex li:nth-child(4):hover {
+    border:none;
+    cursor: pointer;
+}
+
 .align-c {
     align-items: center;
 }
@@ -44,6 +54,10 @@ nav {
 
 ul {
     list-style: none;
+}
+
+.flex li{
+    padding:0 25px;
 }
 
 .py-5 {
