@@ -389,6 +389,7 @@ div span {
 
 footer{
     background-color: black;
+    padding: 40px 0;
 }
 
 .container-foot{
@@ -422,6 +423,17 @@ footer{
 
 #line-footer{
     position: absolute;
+    bottom: 55px;
+    width: 10%;
+}
+
+.language{
+    color: white;
+    position: absolute;
     bottom: 0;
+    font-size: 15px;
+    display: flex;
+    align-items: end;
+    gap: 10px;
 }
 
