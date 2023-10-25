@@ -419,9 +419,16 @@ footer{
 .foot-item a{
     font-size: 15px;
     color: white;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
+
+.foot-item a:hover{
+    text-decoration: underline;   
+}
+
+
+
+
 
 #line-footer{
     position: absolute;
