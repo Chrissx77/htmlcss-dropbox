@@ -368,5 +368,60 @@ div span {
     width: 30%;
 }
 
+/* FOOTER */
+/* Pre-footer */
+.width-all{
+    width: 75%;
+    margin: 0 auto;
+}
 
+.paragraph{position: relative;}
+
+.fa-chevron-down{
+    position: absolute;
+    right: 0;
+}
+
+/* fotter */
+.white{
+    border-color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+.container-foot{
+    min-height: 400px;
+    width: 65%;
+    margin: 0px auto;
+    display: flex;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.foot-item{
+    flex-basis: 20%;
+    min-height: 400px;
+    color: white;
+}
+
+.foot-item ul{
+    padding: 0;
+}
+
+
+
+.foot-item a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#line-footer{
+    position: absolute;
+    bottom: 0;
+}
 
