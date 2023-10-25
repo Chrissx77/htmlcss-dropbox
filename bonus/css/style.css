@@ -1,0 +1,447 @@
+/* RESET STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex li {
+    padding: 0 10px;
+}
+
+.align-c {
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 400;
+    box-shadow: 0px 1px 20px black ;
+}
+
+ul {
+    list-style: none;
+}
+
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: rgb(40, 40, 253);
+    color: white;
+}
+
+
+/* Jumbotron Style */
+.jumbotron {
+    background-color: rgb(184, 193, 230);
+}
+
+.container-jumbo {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.main-text {
+    font-size: 80px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.img-jumbo img {
+    width: 960px;
+    height: 540px;
+    /* position: absolute; */
+    left: 450px;
+    top: 20px;
+}
+
+.text-jumbo {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px 0;
+}
+
+.button-jumbo a {
+    font-size: 20px;
+}
+
+#arrow-down {
+    padding-top: 100px;
+    font-size: 80px;
+}
+
+/* MAIN STYLE */
+/* Abbonamenti */
+main {
+    width: 55%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+
+div span {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.p-15 {
+    padding: 20px;
+}
+
+.abbonamenti {
+    font-size: 19px;
+}
+
+.flex-item {
+    flex-basis: 33%;
+    border: 1px solid #c6c6c6;
+    margin-right: 20px;
+}
+
+.text-left {
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.user {
+    text-align: center;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 5px;
+}
+
+.text-left li {
+    padding: 5px 20px;
+}
+
+.text-left li:nth-child(2){
+    padding: 30px 20px;
+}
+
+li{
+    text-indent: -10px;
+}
+
+.divide {
+    width: 25%;
+    margin: 0;
+    border-bottom: 1px solid #c6c6c6;
+    min-height: 30px;
+}
+
+.hightlight {
+    padding-top: 40px;
+}
+
+.buy {
+    padding-top: 40px;
+}
+
+.btn-main {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.team-contact {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border: 1px solid #c6c6c6;
+    font-size: 17px;
+}
+
+.text-team {
+    flex-basis: 73%;
+}
+
+.text-team div b {
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.team-btn {
+    flex-basis: 37%;
+}
+
+/* Partner */
+.partner img {
+    width: 600px;
+}
+
+.text-partner {
+    font-size: 19px;
+    padding: 70px 100px;
+    text-align: left;
+}
+
+.btn-partner {
+    margin-top: 50px;
+}
+
+.btn-partner a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #c6c6c6;
+    padding: 10px 15px;
+}
+
+/* Features */
+.features h2 {
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(100% / 3 - 30px);
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.card div img {
+    width: 350px;
+}
+
+.card h5 {
+    font-size: 30px;
+}
+
+/* Pubblicità */
+.end-main {
+    width: 55%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.end-main a:visited{
+    color: blue;
+}
+
+/* CUSTOMERS SECTION */
+/* Customers */
+.p-50{
+    padding: 50px;
+}
+
+.py-15{
+    padding: 50px 0;
+}
+
+.customers{
+    display: flex;   
+}
+
+.box-customers{
+    width: calc(100% / 3);
+    min-height: 600px;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.customer-preview{
+    position: absolute;
+    width: 50%;
+}
+
+.img-customer{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.azienda{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.designit{
+    background-color: rgb(65, 170, 65);
+}
+
+.arizona{
+    background-color: rgb(51, 9, 9);
+}
+
+.florida{
+    background-color: rgb(0, 119, 255);
+}
+
+.topps{
+    background-color: red;
+}
+
+.bicycle{
+    background-color: red;
+}
+
+.hearst{
+    background-color: rgb(90, 152, 177);
+}
+
+.lonely{
+    background-color: blue;
+}
+
+.clear{
+    background-color: yellow;
+}
+
+.bord-bott-dark{
+    border-bottom: 1px solid dimgray;
+}
+
+/* Banner Customers */
+.banner-customers{
+    background-color: rgb(139, 175, 204);
+    min-height: 250px;
+}
+
+.justify-center{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center div{
+    margin: 0 150px;
+    color: rgb(75, 18, 18);
+}
+
+.justify-center div button{
+    padding: 10px 30px;
+    border: none;
+    color: dimgray;
+}
+
+.justify-center div:nth-child(2){
+    margin: 0;
+    width: 30%;
+}
+
+/* FOOTER */
+/* Pre-footer */
+.width-all{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.paragraph{position: relative;}
+
+.fa-chevron-down{
+    position: absolute;
+    right: 0;
+}
+
+/* fotter */
+.white{
+    border-color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 40px 0;
+}
+
+.container-foot{
+    min-height: 400px;
+    width: 65%;
+    margin: 0px auto;
+    display: flex;
+    padding: 30px;
+    position: relative;
+    
+}
+
+.foot-item{
+    flex-basis: 20%;
+    min-height: 400px;
+    color: white;
+}
+
+.foot-item ul{
+    padding: 10px;
+}
+
+.foot-item a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;    
+}
+
+.foot-item a:hover{
+    text-decoration: underline;   
+}
+
+#line-footer{
+    position: absolute;
+    bottom: 55px;
+    width: 10%;
+}
+
+.language{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    font-weight: 100;
+}
+
