@@ -30,8 +30,13 @@ body {
     padding: 0 10px;
 }
 
+ul.flex li{
+    transition:ease;
+}
+
+
 ul.flex li:hover {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid dimgray;
     cursor: pointer;
 }
 
@@ -75,6 +80,11 @@ ul {
     padding: 7px 15px;
     background-color: rgb(40, 40, 253);
     color: white;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: rgb(126, 126, 255);
 }
 
 
@@ -95,17 +105,21 @@ ul {
     margin: 0;
 }
 
+.jumbo-item{
+    flex-basis: 41%;
+}
+
 .relative {
     position: relative;
 }
 
 
 .img-jumbo img {
-    width: 960px;
-    height: 540px;
-    /* position: absolute; */
-    left: 450px;
-    top: 20px;
+    width: 980px;
+    height: 560px;
+    position: absolute;
+    left: 490px;
+    top:27px;
 }
 
 .text-jumbo {
@@ -122,6 +136,14 @@ ul {
     padding-top: 100px;
     font-size: 80px;
 }
+
+#arrow-down a {
+    color: black;
+}
+
+
+
+
 
 /* MAIN STYLE */
 /* Abbonamenti */
@@ -317,6 +339,10 @@ li{
     filter: invert(1);
 }
 
+/* .azienda:hover{
+    border: 5px solid white;
+} */
+
 .azienda{
     flex-basis: 50%;
     position: relative;
@@ -395,11 +421,41 @@ li{
     margin: 0 auto;
 }
 
-.paragraph{position: relative;}
+.paragraph{
+    position: relative;
+}
+
+.hide{
+    display: none;
+    color: lightslategray;
+}
+
+p.answer:hover + .hide{
+    cursor: pointer;
+    display: block;
+}
+
+i.arrow-off{
+    display: none;
+}
+
+p.answer:hover i.arrow-off{
+    display: block;
+    cursor: pointer;
+}
+p.answer:hover i.arrow-on{
+    display: none;
+}
 
 .fa-chevron-down{
     position: absolute;
     right: 0;
+}
+
+.fa-chevron-up{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 /* fotter */
