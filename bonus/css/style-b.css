@@ -4,6 +4,7 @@
 :root {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -30,19 +31,49 @@ body {
     padding: 0 10px;
 }
 
-ul.flex li{
-    transition:ease;
+.absolute{
+    position: absolute;
+    left: 15px;
+    border-bottom: 4px solid black;
+    width: 80%;
+    height: 22px;
+    margin: 0 auto;
+    display: none;
 }
 
+li.relative a:hover + .absolute{
+    display: block;
+}
 
-ul.flex li:hover {
+/* ul.flex li{
+    transition:ease;
+} */
+
+/* ul.flex li:hover {
     border-bottom: 3px solid dimgray;
     cursor: pointer;
-}
+} */
 
-ul.flex li:nth-child(4):hover {
+/* ul.flex li:nth-child(4):hover {
     border:none;
     cursor: pointer;
+    text-decoration: none;
+} */
+
+/* ul.flex li a:hover{
+    text-decoration:underline;
+} */
+
+ul.flex li a{
+    text-decoration: none;
+}
+
+ul.flex li a:visited{
+    color: black;
+}
+
+ul.flex li a.button:visited {
+    color: rgb(255, 255, 255);
 }
 
 .align-c {
@@ -85,6 +116,32 @@ ul {
 
 .button:hover{
     background-color: rgb(126, 126, 255);
+}
+
+
+
+.menu{
+    position: relative;
+}
+
+.sub-menu{
+    position: absolute;
+    background-color: white;
+    left: 10px;
+    padding: 15px 0;
+    width: 250px;
+    font-size: 16px;
+    display: none;
+    transition: all 10s ease-out;
+}
+
+.menu a:hover + ul.sub-menu{
+    display: block;
+}
+
+.sub-menu li{
+    line-height: 50px;
+
 }
 
 
