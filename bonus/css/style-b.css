@@ -489,7 +489,6 @@ li{
 }
 
 p.answer:hover + .hide{
-    cursor: pointer;
     display: block;
 }
 
