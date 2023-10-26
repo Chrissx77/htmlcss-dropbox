@@ -118,12 +118,6 @@ ul {
     background-color: rgb(126, 126, 255);
 }
 
-
-
-.menu{
-    position: relative;
-}
-
 .sub-menu{
     position: absolute;
     background-color: white;
@@ -135,7 +129,11 @@ ul {
     transition: all 10s ease-out;
 }
 
-.menu a:hover + ul.sub-menu{
+.relative a:hover + ul.sub-menu{
+    display: block;
+}
+
+ul.sub-menu:hover{
     display: block;
 }
 
