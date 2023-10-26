@@ -126,7 +126,6 @@ ul {
     width: 250px;
     font-size: 16px;
     display: none;
-    transition: all 10s ease-out;
 }
 
 .relative a:hover + ul.sub-menu{
